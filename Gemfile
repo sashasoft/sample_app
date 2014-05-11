@@ -6,7 +6,12 @@ gem 'pg'
 gem 'rails_12factor'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'guard-spork'
+  gem "spork-rails"
+  gem 'childprocess'
 end
+
+gem 'guard-rspec', require: false
 
 group :test do
   gem 'selenium-webdriver', '>= 2.35.1'
