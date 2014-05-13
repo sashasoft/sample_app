@@ -10,7 +10,7 @@ group :development, :test do
   gem "spork-rails"
   gem 'childprocess'
 end
-
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'guard-rspec', require: false
 
 group :test do
