@@ -5,7 +5,7 @@ gem 'rails', '4.1.1'
 gem 'pg'
 gem 'rails_12factor'
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'rspec-core', '~> 2.14.8'
   gem 'guard-spork', '1.5.1'
   gem "spork-rails"
   gem 'childprocess'
